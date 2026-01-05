@@ -1,0 +1,65 @@
+# =========================
+# Binários gerados
+# =========================
+*.out
+*.exe
+*.app
+
+# Executáveis comuns
+main
+a.out
+
+# =========================
+# Objetos e arquivos intermediários
+# =========================
+*.o
+*.obj
+*.lo
+*.s
+
+# =========================
+# Bibliotecas geradas
+# =========================
+*.so
+*.a
+*.dll
+*.dylib
+
+# =========================
+# Arquivos de debug
+# =========================
+*.dSYM/
+*.pdb
+*.idb
+
+# =========================
+# Pastas de build
+# =========================
+build/
+bin/
+dist/
+out/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# (opcional: se quiser versionar settings)
+# !.vscode/settings.json
+
+# =========================
+# Make / CMake
+# =========================
+Makefile
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# =========================
+# Temporários do Linux
+# =========================
+*~
+*.swp
+*.tmp
