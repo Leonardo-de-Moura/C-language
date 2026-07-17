@@ -20,7 +20,7 @@ float variancia(int n, float *v, float m)
     return s / n;
 }
 
-int main(void)
+int main( void )
 {
     float v[10];
     float med, var;
