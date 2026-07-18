@@ -22,7 +22,8 @@
 
 #define PI 3.14159F
 #define PROD(a,b)    (a*b)
-float area (float r){
-float a= PI ,*r^2;
+float area (float r)
+{
+float a = PI *r^2;
 return a ;
 }
