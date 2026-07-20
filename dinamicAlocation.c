@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//bibliotecas invocadas pelas diretivas
 
 float media(int n, float *v)
 {
