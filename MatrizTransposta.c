@@ -8,10 +8,11 @@ float **transpost_pointer(int m, int n, float **mat);
 int main(void)
 {
     int n,m;
+    int mat[10];
     printf("digite as dimensoes das matrizes, primeiro linhas depois colunas");
     scanf("%d%d",&n,&m);
-    transpost_pointer(n, m);
-    transpost_simple(n,m);
+    transpost_pointer(n, m, mat);
+    transpost_simple(n,m,mat);
     return 0;
 }
 
